@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<title>Example</title>
+<!-- <link rel="stylesheet" th:href=""/>
+ -->
+<link rel="stylesheet" th:href="@{/css/style.css}" />
+
+</head>
+<body>
+	<div class="container">
+		<h1>Adding css, image ,js in thymeleaf</h1>
+		<img alt="" th:src="@{/image/image.jpeg}">
+	</div>
+	<script type="text/javascript" th:src="@{/js/script.js}"></script>
+
+</body>
+</html>

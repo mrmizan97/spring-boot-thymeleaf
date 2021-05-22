@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" >
+<head>
+<meta charset="UTF-8" />
+<title>Success page</title>
+</head>
+<body>
+<div>
+<h1>Success!</h1>
+<h1 th:text="'userName : '+${loginData.userName}"></h1>
+<h1 th:text="'Email : '+${loginData.email}"></h1>
+</div>
+</body>
+</html>

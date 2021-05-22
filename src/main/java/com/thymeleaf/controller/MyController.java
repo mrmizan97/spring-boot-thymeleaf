@@ -60,4 +60,8 @@ public class MyController {
 	public String contact() {
 		return "contact";
 	}
+	@GetMapping("/example")
+	public String example() {
+		return "example";
+	}
 }
